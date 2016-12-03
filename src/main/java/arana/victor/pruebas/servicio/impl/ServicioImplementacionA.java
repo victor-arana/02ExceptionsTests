@@ -8,7 +8,7 @@ public class ServicioImplementacionA implements ServicioInterface {
 
 	@Override
 	public void hacerX(int i) throws ServicioHacerXException {
-		System.out.println("Se ejecuto hacerX(" + i + ")");
+		System.out.println("Se ejecutó hacerX(" + i + ")");
 	}
 
 }
