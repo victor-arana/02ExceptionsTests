@@ -12,6 +12,11 @@ public class ServicioHacerXException extends ServicioException {
 		this.argumento = argumento;
 	}
 
+	public ServicioHacerXException(int argumento, String message) {
+		super(message);
+		this.argumento = argumento;
+	}
+
 	public int getArgumento() {
 		return argumento;
 	}
